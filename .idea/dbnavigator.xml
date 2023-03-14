@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="68515db9-9cd3-480d-900b-aaaad5b01cc0">
-      <console name="JDBC" type="STANDARD" schema="public" session="Main"><![CDATA[select*from ogrenciler]]></console>
+      <console name="JDBC" type="STANDARD" schema="public" session="Main"><![CDATA[select*from Doctors]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseEditorStateManager">
@@ -23,6 +23,7 @@
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="68515db9-9cd3-480d-900b-aaaad5b01cc0" dataset="public.urunler" active-filter-id="" />
     <filter-actions connection-id="68515db9-9cd3-480d-900b-aaaad5b01cc0" dataset="public.ogrenciler" active-filter-id="e0614903-4dd9-4498-a506-ad9123698c17">
       <filter id="e0614903-4dd9-4498-a506-ad9123698c17" name="Filter 1" temporary="false" custom-name="false" type="basic" join-type="AND">
         <condition column="okul_no" operator="=" value="" active="true" />
